@@ -97,7 +97,9 @@ p {
 .result__down {
     transform: translateY(0px);
 }
-
+input:invalid {
+    background-color: black;
+}
 
 .invalid {
     box-shadow: 0 0 5px 1px red;
