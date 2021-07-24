@@ -3,7 +3,7 @@ let inputName = document.querySelector('.form__inner-username');
 let inputPassword = document.querySelector('.form__inner-password');
 let getForm = document.querySelector('.form__inner');
 
-let correctName = /^[a-z0-9].{2,15}$/i
+let correctName = /^[a-z0-9].{2,15}$/i;
 let correctPass = /^[a-z0-9](?=.*[\#])(?=.*[\$]).{6,15}$/i;
 
 inputName.addEventListener('input', () => {
